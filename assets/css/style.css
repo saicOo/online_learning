@@ -85,6 +85,10 @@ body .window-scroll{
   height: 250px;
   /* object-fit: cover; */
 }
+.subjects .card-header{
+  font-weight: 700!important;
+  background-color: lightblue;
+}
 /* Start Levels Page & Units Page */
 /*//////////////////////////////////////////// Footer//////////////////////////////////////////*/
 .footer{
