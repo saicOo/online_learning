@@ -85,11 +85,63 @@ body .window-scroll{
   height: 250px;
   /* object-fit: cover; */
 }
+/* End Levels Page & Units Page */
 .subjects .card-header{
   font-weight: 700!important;
   background-color: lightblue;
 }
-/* Start Levels Page & Units Page */
+
+/* Start Quiztest Page */
+#quiztest .options-box{
+  padding: 20px 0 30px;
+}
+#quiztest .options-box .options{
+  position: relative;
+  padding-left: 40px;
+}
+#quiztest .options-box label{
+  display: block;
+  margin-bottom: 15px;
+  font-size: 14px;
+  cursor: pointer;
+}
+#quiztest .options-box .options input{
+  opacity: 0;
+}
+#quiztest .options-box .checkmark {
+  position: absolute;
+  top: -1px;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #24262b;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+}
+#quiztest .options-box .options input:checked ~ .checkmark:after {
+  display: block;
+}
+#quiztest .options-box .options .checkmark:after{
+  content: "";
+width: 10px;
+  height: 10px;
+  display: block;
+background: white;
+  position: absolute;
+  top: 50%;
+left: 50%;
+  border-radius: 50%;
+  transform: translate(-50%,-50%) scale(0);
+  transition: 300ms ease-in-out 0s;
+}
+#quiztest .options-box .options input[type="radio"]:checked ~ .checkmark{
+  background: #21bf73;
+  transition: 300ms ease-in-out 0s;
+}
+#quiztest .options-box .options input[type="radio"]:checked ~ .checkmark:after{
+  transform: translate(-50%,-50%) scale(1);
+}
+/* END Quiztest Page */
 /*//////////////////////////////////////////// Footer//////////////////////////////////////////*/
 .footer{
 	background-color: #24262b;
