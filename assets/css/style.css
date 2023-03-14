@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
+/* Start Global Style */
 *{
     margin: 0;
     padding: 0;
@@ -17,6 +17,11 @@
   .heading h1{
     text-align: center;
   }
+  .card-header{
+    font-weight: 700!important;
+    background-color: lightblue;
+  }
+/* End Global Style */
 /* start header */
 body .window-scroll{
   background: linear-gradient( #89CFF0 , #67a9c7);
@@ -86,10 +91,7 @@ body .window-scroll{
   /* object-fit: cover; */
 }
 /* End Levels Page & Units Page */
-.subjects .card-header{
-  font-weight: 700!important;
-  background-color: lightblue;
-}
+
 
 /* Start Quiztest Page */
 #quiztest .options-box{
