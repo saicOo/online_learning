@@ -144,6 +144,21 @@ left: 50%;
   transform: translate(-50%,-50%) scale(1);
 }
 /* END Quiztest Page */
+/* Start Profile Page */
+.profile .image-profile{
+  margin: 10px 0 30px;
+  padding: 10px;
+  background-color: #67a9c7;
+}
+.profile .image-profile img{
+  padding: 5px;
+  border: 5px solid #77bbdb;
+  background-color: #bfd4db;
+}
+.profile tr{
+  border-bottom: 2px dashed lightblue;
+}
+/* END Profile Page */
 /*//////////////////////////////////////////// Footer//////////////////////////////////////////*/
 .footer{
 	background-color: #24262b;
