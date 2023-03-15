@@ -20,6 +20,7 @@
   .card-header{
     font-weight: 700!important;
     background-color: lightblue;
+    color: #ffffff;
   }
 /* End Global Style */
 /* start header */
@@ -60,6 +61,8 @@ body .window-scroll{
 }
 .slideshow .carousel-caption{
   top: 50%;
+  width: 50%;
+  margin: auto;
 }
 /* End Homepage Slideshow */
 

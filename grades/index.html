@@ -76,84 +76,110 @@
         </div>
         <div class="row">
           <div class="col-12">
-            <div class="accordion" id="accordionExample">
-              <div class="card">
-                <div class="card-header" id="headingOne">
-                  <h2 class="mb-0">
-                    <button class="btn btn-info btn-block text-left" type="button" data-toggle="collapse"
-                      data-target="#levelOne" aria-expanded="true" aria-controls="levelOne">
-                      level 1
-                    </button>
-                  </h2>
-                </div>
-
-                <div id="levelOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-                  <div class="card-body">
-                    <table class="table table-responsive-sm">
-                      <thead>
-                        <tr>
-                          <th scope="col">#</th>
-                          <th scope="col">Subject Name</th>
-                          <th scope="col">Right Grade</th>
-                          <th scope="col">Total Grade</th>
-                          <th scope="col">Show Details</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <th scope="row">1</th>
-                          <td>Unit 1</td>
-                          <td>9 Mark</td>
-                          <td>10 Mark</td>
-                          <td><a href="./show.html">show</a></td>
-                        </tr>
-                      </tbody>
-                    </table>
+            <div class="card">
+              <div class="card-header">
+                <div class="row">
+                  <div class="col-6">
+                    <h5>Grades</h5>
+                  </div>
+                  <div class="col-6">
+                    <form action="./index.html" method="get">
+                      <div class="input-group">
+                        <select class="custom-select">
+                          <option selected>Choose...</option>
+                          <option value="1">First Child</option>
+                          <option value="2">Secaund Child</option>
+                        </select>
+                        <div class="input-group-append">
+                          <button class="btn btn-primary" type="button">Button</button>
+                        </div>
+                      </div>
+                    </form>
                   </div>
                 </div>
               </div>
-              <div class="card">
-                <div class="card-header" id="headingTwo">
-                  <h2 class="mb-0">
-                    <button class="btn btn-info btn-block text-left collapsed" type="button" data-toggle="collapse"
-                      data-target="#levelTwo" aria-expanded="false" aria-controls="levelTwo">
-                      level 2
-                    </button>
-                  </h2>
-                </div>
-                <div id="levelTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                  <div class="card-body">
-                    <table class="table table-responsive-sm">
-                      <thead>
-                        <tr>
-                          <th scope="col">#</th>
-                          <th scope="col">Subject Name</th>
-                          <th scope="col">Right Grade</th>
-                          <th scope="col">Total Grade</th>
-                          <th scope="col">Show Details</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <th scope="row">1</th>
-                          <td>Unit 1</td>
-                          <td>9 Mark</td>
-                          <td>10 Mark</td>
-                          <td><a href="./show.html">show</a></td>
-                        </tr>
-                        <tr>
-                          <th scope="row">2</th>
-                          <td>Unit 2</td>
-                          <td>8 Mark</td>
-                          <td>15 Mark</td>
-                          <td><a href="./show.html">show</a></td>
-                        </tr>
-                      </tbody>
-                    </table>
+              <div class="card-body">
+                <div class="accordion" id="accordionExample">
+                  <div class="card">
+                    <div class="card-header" id="headingOne">
+                      <h2 class="mb-0">
+                        <button class="btn btn-info btn-block text-left" type="button" data-toggle="collapse"
+                          data-target="#levelOne" aria-expanded="true" aria-controls="levelOne">
+                          level 1
+                        </button>
+                      </h2>
+                    </div>
+    
+                    <div id="levelOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                      <div class="card-body">
+                        <table class="table table-responsive-sm">
+                          <thead>
+                            <tr>
+                              <th scope="col">#</th>
+                              <th scope="col">Subject Name</th>
+                              <th scope="col">Right Grade</th>
+                              <th scope="col">Total Grade</th>
+                              <th scope="col">Show Details</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <th scope="row">1</th>
+                              <td>Unit 1</td>
+                              <td>9 Mark</td>
+                              <td>10 Mark</td>
+                              <td><a href="./show.html">show</a></td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingTwo">
+                      <h2 class="mb-0">
+                        <button class="btn btn-info btn-block text-left collapsed" type="button" data-toggle="collapse"
+                          data-target="#levelTwo" aria-expanded="false" aria-controls="levelTwo">
+                          level 2
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="levelTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                      <div class="card-body">
+                        <table class="table table-responsive-sm">
+                          <thead>
+                            <tr>
+                              <th scope="col">#</th>
+                              <th scope="col">Subject Name</th>
+                              <th scope="col">Right Grade</th>
+                              <th scope="col">Total Grade</th>
+                              <th scope="col">Show Details</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <th scope="row">1</th>
+                              <td>Unit 1</td>
+                              <td>9 Mark</td>
+                              <td>10 Mark</td>
+                              <td><a href="./show.html">show</a></td>
+                            </tr>
+                            <tr>
+                              <th scope="row">2</th>
+                              <td>Unit 2</td>
+                              <td>8 Mark</td>
+                              <td>15 Mark</td>
+                              <td><a href="./show.html">show</a></td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
+            
           </div><!-- col./ -->
         </div><!-- row./ -->
       </div>
