@@ -66,49 +66,52 @@
           <div class="col-12">
             <div class="card">
               <div class="card-header">
-                <button type="button" class="btn btn-info" data-toggle="modal" data-target="#createModal">Create</button>
+                <button type="button" class="btn btn-info" data-toggle="modal"
+                  data-target="#createModal">Create</button>
               </div>
               <div class="card-body">
-                <table class="table table-striped">
-                  <thead>
-                    <tr>
-                      <th scope="col">#</th>
-                      <th scope="col">Nmae</th>
-                      <th scope="col">Level</th>
-                      <th scope="col">Semester</th>
-                      <th scope="col">Delete</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <th scope="row">1</th>
-                      <td>Unit 1</td>
-                      <td>Level 1</td>
-                      <td>Semester 1</td>
-                      <td>
-                        <a href="#" class="text-danger"><i class="fas fa-trash"></i></a>
-                      </td>
-                    </tr>
-                    <tr>
-                      <th scope="row">2</th>
-                      <td>Unit 2</td>
-                      <td>Level 2</td>
-                      <td>Semester 2</td>
-                      <td>
-                        <a href="#" class="text-danger"><i class="fas fa-trash"></i></a>
-                      </td>
-                    </tr>
-                    <tr>
-                      <th scope="row">3</th>
-                      <td>Unit 3</td>
-                      <td>Level 1</td>
-                      <td>Semester 1</td>
-                      <td>
-                        <a href="#" class="text-danger"><i class="fas fa-trash"></i></a>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
+                <div class="table-responsive">
+                  <table class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Nmae</th>
+                        <th scope="col">Level</th>
+                        <th scope="col">Semester</th>
+                        <th scope="col">Action</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Unit 1</td>
+                        <td>Level 1</td>
+                        <td>Semester 1</td>
+                        <td>
+                          <a href="#" class="text-danger"><i class="fas fa-trash"></i></a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Unit 2</td>
+                        <td>Level 2</td>
+                        <td>Semester 2</td>
+                        <td>
+                          <a href="#" class="text-danger"><i class="fas fa-trash"></i></a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Unit 3</td>
+                        <td>Level 1</td>
+                        <td>Semester 1</td>
+                        <td>
+                          <a href="#" class="text-danger"><i class="fas fa-trash"></i></a>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table><!-- table./ -->
+                </div>
               </div>
             </div><!-- card./ -->
           </div><!-- col./ -->
@@ -118,7 +121,7 @@
   </main>
   <!-- start content./  -->
   <!-- start footer  -->
-  <footer class="footer text-center" id="footer">
+  <footer>
     <div class="copyright">
       <p><a href="http://saicopy.com">CopyRight@Saicopy</a></p>
     </div>
@@ -167,8 +170,7 @@
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary"
-          onclick="event.preventDefault();
+          <button type="button" class="btn btn-primary" onclick="event.preventDefault();
   document.getElementById('create-form').submit();">Create</button>
         </div>
       </div>

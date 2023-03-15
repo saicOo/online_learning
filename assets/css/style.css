@@ -5,24 +5,6 @@
     box-sizing: border-box;
     transition: all 0.3s;
 }
-ul{
-    list-style: none;
-}
-.card{
-    border-radius: 10px;
-    box-shadow: 0 0 35px 0 rgba(154, 161, 171, 0.15);
-}
-.card-header{
-    background-color: transparent;
-    border-bottom: none;
-}
-.breadcrumb{
-    justify-content: end;
-}
-a,a:hover{
-    color: #6c757d;
-    text-decoration: none;
-}
 body{
     overflow-x: hidden;
     position: relative;
@@ -35,6 +17,28 @@ body{
     text-align: left;
     background-color: #fafbfe;
 }
+ul{
+    list-style: none;
+}
+a,a:hover{
+    color: #6c757d;
+    text-decoration: none;
+}
+/* Start Bootstrap Style */
+.card{
+    border-radius: 10px;
+    box-shadow: 0 0 35px 0 rgba(154, 161, 171, 0.15);
+}
+.card-header{
+    background-color: transparent;
+    border-bottom: none;
+}
+.breadcrumb{
+    justify-content: end;
+}
+/* End Bootstrab Style */
+
+/* start layouts */
 header{
     position: fixed;
     min-width: 100%;
@@ -42,11 +46,30 @@ header{
 header,footer,.sidenav{
     z-index: 1000;
 }
+header .navbar i.fa-bars{
+    cursor: pointer;
+}
 header,footer{
 background-color: #ffffff;
 box-shadow: 0 0 35px 0 rgba(154, 161, 171, 0.15);
 }
-/* SideBar */
+footer {  
+    width: calc(100% - 230px);  
+    margin-left: 230px; 
+    padding: 15px;
+    position: absolute;
+    text-align: center;
+} 
+
+@media (max-width: 600px) {  
+    #footer {  
+        width: 100%;  
+        margin-left: 0;  
+      } 
+  } 
+/* end layouts */
+
+/* Start SideBar */
 .sidenav {  
     position: fixed;  
     top: 0;  
@@ -92,7 +115,7 @@ box-shadow: 0 0 35px 0 rgba(154, 161, 171, 0.15);
         left: 0px;  
     }
   } 
-
+/* End SideBar */
 /* Content Wrapper */
 #content-wrapper {  
     margin-left: 230px; 
@@ -105,22 +128,3 @@ box-shadow: 0 0 35px 0 rgba(154, 161, 171, 0.15);
     }  
   } 
 
-/* Footer */
-  #footer {  
-    width: calc(100% - 230px);  
-    margin-left: 230px; 
-    /* background-color: #a4c4e5; */
-    padding: 15px;
-    position: absolute;
-} 
-#footer a{
-    /* color: #ffff; */
-    text-decoration: none;
-}
-
-@media (max-width: 600px) {  
-    #footer {  
-        width: 100%;  
-        margin-left: 0;  
-      } 
-  } 
