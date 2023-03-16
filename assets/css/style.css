@@ -135,3 +135,6 @@ footer {
     top:-20px;
     border-radius:50%;
 }
+.card-inner{
+    margin-left: 4rem;
+}
