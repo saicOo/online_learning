@@ -1,12 +1,15 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet');
 /* Start Global Style */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     scroll-behavior: smooth;
+  }
+  body{
+    text-transform: capitalize;
   }
   ul{
     list-style: none;
@@ -16,6 +19,9 @@
   }
   .heading h1{
     text-align: center;
+    color: rgb(34, 146, 146); 
+    font-weight: bolder;
+    text-transform: uppercase;
   }
   .card-header{
     font-weight: 700!important;
@@ -64,6 +70,33 @@ body .window-scroll{
   width: 50%;
   margin: auto;
 }
+.counter {
+  padding: 80px 0;
+  border-radius: 5px;
+}
+
+.count-title {
+  font-size: 40px;
+  font-weight: normal;
+  margin-top: 10px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.count-text {
+  font-size: 13px;
+  font-weight: normal;
+  margin-top: 10px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.fa-2x {
+  margin: 0 auto;
+  float: none;
+  display: table;
+  color: #229292;;
+}
 /* End Homepage Slideshow */
 
 /* Start Semester Page  */
@@ -94,7 +127,11 @@ body .window-scroll{
   /* object-fit: cover; */
 }
 /* End Levels Page & Units Page */
-
+/* Start Subject Page */
+.card-inner{
+  margin-left: 4rem;
+}
+/* End Subject Page */
 
 /* Start Quiztest Page */
 #quiztest .options-box{
