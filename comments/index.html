@@ -35,6 +35,7 @@
     <div class="sidebar-heading border-bottom p-3 ">Admin Panal</div>
     <ul>
       <li><a href="./../index.html"><i class="fas fa-tachometer-alt"></i>Dashboard</a></li>
+      <li><a href="./../admins/index.html"><i class="fas fa-user"></i>Admins</a></li>
       <li><a href="./../levels/index.html"><i class="fas fa-school"></i>Levels</a></li>
       <li><a href="./../index.html"><i class="fas fa-book-open"></i>Units</a></li>
       <li><a href="./index.html"><i class="fas fa-user-graduate"></i>Students</a></li>
@@ -148,56 +149,6 @@
     </div>
   </footer>
   <!-- end footer./ -->
-  <!-- start modal create -->
-  <div class="modal fade" id="createModal" tabindex="-1" aria-labelledby="createModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="createModalLabel">Create Unit</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <form action="./index.html" method="post" id="create-form" autocomplete="off">
-            <div class="form-group">
-              <label for="name">Name</label>
-              <input type="email" class="form-control" id="name" aria-describedby="emailHelp">
-            </div>
-            <div class="form-group">
-              <label for="semester">Level select</label>
-              <select class="form-control" id="semester">
-                <option>Level 1</option>
-                <option>Level 2</option>
-                <option>Level 3</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <label for="semester">Semester select</label>
-              <select class="form-control" id="semester">
-                <option>Semester 1</option>
-                <option>Semester 2</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <label for="upload">Video Upload</label>
-              <input type="file" class="form-control-file" id="upload" accept="video/mp4,video/x-m4v,video/*">
-            </div>
-            <div class="form-group">
-              <label for="description">Description</label>
-              <textarea class="form-control" id="description" rows="3"></textarea>
-            </div>
-          </form>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary" onclick="event.preventDefault();
-  document.getElementById('create-form').submit();">Create</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- end modal create -->
   <script src="./../assets/js/jquery-3.5.1.slim.min.js"></script>
   <script src="./../assets/js/popper.min.js"></script>
   <script src="./../assets/js/bootstrap.min.js"></script>
